@@ -1330,7 +1330,7 @@ class _AnimatedSkillBoxState extends State<AnimatedSkillBox>
     _controller = AnimationController(
       vsync: this,
       duration: const Duration(
-        milliseconds: 1200,
+        milliseconds: 1300,
       ), // Increased duration for slower animation
     );
     _animation = Tween<Offset>(
