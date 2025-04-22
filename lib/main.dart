@@ -243,9 +243,7 @@ class ResumePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            if (constraints.maxWidth >= 600 &&
-                                constraints.maxWidth < 900)
-                              SectionTitle(title: 'About Me'),
+                            SectionTitle(title: 'About Me'),
                             const ContactBox(),
                             SectionTitle(title: 'Skills'),
                             SkillsWidget(
@@ -292,10 +290,11 @@ class DesktopResumePage extends StatelessWidget {
                             ProfileSection(
                               name: 'Sina NejadHosseini',
                               title: 'Programmer & Network Specialist',
-                              email: 'sina4501@gmail.com',
+                              email: 'sina.nejadhoseini@gmail.com',
                               phone: '+09167991896',
-                              telegram: '@sina_telegram',
-                              linkedIn: 'linkedin.com/in/sina-profile',
+                              telegram: 't.me/isina_nej',
+                              linkedIn:
+                                  'https://www.linkedin.com/in/sina-nejadhoseini-872b4431a',
                             ),
                             SizedBox(height: 16),
                             const ContactBox(),
